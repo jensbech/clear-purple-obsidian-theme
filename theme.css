@@ -218,6 +218,29 @@
 .cm-s-obsidian .cm-meta       { color: var(--code-comment);    }
 
 /* ══════════════════════════════════════════════════════════════════════
+   INLINE CODE
+   ══════════════════════════════════════════════════════════════════════ */
+
+/* Reading mode */
+.markdown-preview-view :not(pre) > code {
+  background:    rgba(139, 112, 224, 0.12);
+  border:        1px solid rgba(139, 112, 224, 0.3);
+  border-radius: 3px;
+  color:         #c4b5fd;
+  padding:       0.15em 0.4em;
+  font-size:     0.9em;
+}
+
+/* Live preview / editor */
+.cm-s-obsidian .cm-inline-code {
+  background:    rgba(139, 112, 224, 0.12);
+  border:        1px solid rgba(139, 112, 224, 0.3);
+  border-radius: 3px;
+  color:         #c4b5fd;
+  padding:       0.1em 0.35em;
+}
+
+/* ══════════════════════════════════════════════════════════════════════
    SCROLLBAR
    ══════════════════════════════════════════════════════════════════════ */
 ::-webkit-scrollbar-thumb {
